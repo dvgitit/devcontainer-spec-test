@@ -1,0 +1,12 @@
+"name": "igbvc-devcontainer-spec-test",
+"image": "mcr.microsoft.com/devcontainers/base:ubuntu",  // Any generic, debian-based image.
+"features": {
+    "ghcr.io/devcontainers/features/go:1": {
+        "version": "1.18"
+    },
+    "ghcr.io/devcontainers/features/docker-in-docker:1": {
+        "version": "latest",
+        "moby": true
+    },
+    "ghcr.io/rio/features/k3d:1":{}
+}
